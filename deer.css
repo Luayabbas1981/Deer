@@ -69,7 +69,30 @@ body {
     top: 32.5%;
     right: 20%;
     transform: skew(-35deg) rotate(311deg);
+    transform-origin: 0% 50%;
   }
+  .contain1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 31%;
+    right: 17%;
+    z-index: 3;
+    transform-origin: 0% 50%;
+    animation: ear 1.4s infinite alternate;
+    -webkit-animation: ear-right 1.4s infinite alternate;
+}
+  @keyframes ear-right {
+    to {
+      transform: rotate(7deg);
+      -webkit-transform: rotate(7deg);
+      -moz-transform: rotate(7deg);
+      -ms-transform: rotate(7deg);
+      -o-transform: rotate(7deg);
+}
+
+  }
+
   .ear-left {
     position: absolute;
     width: 60px;
@@ -82,8 +105,29 @@ body {
     border-right: none;
     top: 32.5%;
     left: 20%;
+    transform-origin: 100% 50%;
     transform: skew(35deg) rotate(-311deg);
   }
+  .contain2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 32.5%;
+    left: 20%;
+    z-index: 3;
+    transform-origin: 100% 50%;
+    animation: ear 1.4s infinite alternate;
+    -webkit-animation: ear-left 1.4s  infinite alternate;
+}
+@keyframes ear-left {
+  to{
+    transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+}
+}
   .horn-right1 {
     position: absolute;
     width: 66px;
@@ -133,16 +177,20 @@ body {
     top: 20%;
     right: 51%;
     transform: rotate(222deg);
-  }
+    -webkit-transform: rotate(222deg);
+    -moz-transform: rotate(222deg);
+    -ms-transform: rotate(222deg);
+    -o-transform: rotate(222deg);
+}
   .horn-left2 {
     position: absolute;
     width: 158px;
     height: 175px;
     border-top: 27px solid black;
     border-top-right-radius: 66% 63%;
-    top: 2%;
+    top: 1%;
     left: 18%;
-    transform: rotate(214deg);
+    transform: rotate(217deg);
   }
   .horn-left3 {
     position: absolute;
