@@ -222,23 +222,13 @@ body {
     left:8%;
     transform: rotate(329deg);
   }
-  /* .horn-right1{
-    position: absolute;
-width: 103px;
-height: 96px;
-border-bottom: 31px solid black;
-border-bottom-right-radius: 66% 63%;
-top: 104px;
-left: 255px;
-transform: rotate( 307deg );
-  }
-  */
-  .test {
+  
+  .head {
     position: absolute;
     width: 0px;
     height: 50px;
     top: 50%;
-    right:50%;
+    right:49%;
     box-shadow: 1px 1px 16px 7px white;
     background-color: #bebebe;
   }
