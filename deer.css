@@ -232,10 +232,10 @@ body {
   }
   .point {
     position: absolute;
-    width: .5px;
-    height: .5px;
-    background-color: #bebebe;
-    box-shadow: 1px 1px 14px 4px white;
+    width: .8px;
+    height: .8px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 14px 6px white;
   }
   .num1 {
     top: 39%;
