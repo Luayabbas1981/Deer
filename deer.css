@@ -242,6 +242,9 @@ body {
   box-shadow: 1px 1px 14px 6px white;
 }
 @media (max-width: 767px) {
+  body{
+    background-color: #d2d2d2;
+  }
   .eye1 {
     left: 225px;
   }
@@ -291,6 +294,12 @@ body {
   }
   .horn-right4 {
     left: 80px;
+  }
+  .head,.frame{
+  box-shadow: none;
+  }
+  .point{
+    display: none;
   }
 }
 .num1 {
